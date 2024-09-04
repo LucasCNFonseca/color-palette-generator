@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffbb33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+#palette {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px; /* Adiciona margem horizontal entre os quadrados */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #51b7fc;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
