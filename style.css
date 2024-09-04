@@ -22,12 +22,6 @@ body {
     margin: 20px 0;
 }
 
-.color-box {
-    width: 100px;
-    height: 100px;
-    margin: 0 10px; /* Adiciona margem horizontal entre os quadrados */
-}
-
 button {
     padding: 10px 20px;
     border: none;
@@ -40,4 +34,31 @@ button {
 
 button:hover {
     background-color: #2980b9;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-box:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+}
+
+.color-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 12px;
+    text-shadow: 1px 1px 2px black;
 }
